@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#376a1f</color>
+    <color name="green_light">#cfee81</color>
+    <color name="green_dark">#181e09</color>
+
+    <color name="primaryContainer">#FDFDF5</color>
+    <color name="background">#EEEBD8</color>
+
+    <color name="outline">#73796e</color>
+    <color name="surface_variant">#dfe4d7</color>
+    <color name="on_surface_variant">#43483f</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gainsboro">#929292</color>
+    <color name="black">#1b1c17</color>
+    <color name="lines_color">#32000000</color>
+
+</resources>

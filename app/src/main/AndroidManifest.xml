@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chrismagaa.cannabis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.chrismagaa.cannabis.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+
+        <activity
+            android:name="com.chrismagaa.cannabis.ui.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chrismagaa.cannabis.ui.settings.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SimpleLectorRSS"/>
+        <activity
+            android:name="com.chrismagaa.cannabis.ui.details.DetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SimpleLectorRSS"/>
+        <activity
+            android:name="com.chrismagaa.cannabis.ui.feed.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4702215318330979~2727274800" />
+    </application>
+
+</manifest>

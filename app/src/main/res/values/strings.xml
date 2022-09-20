@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cannappbis</string>
+
+    <string name="action_news">News</string>
+    <string name="navidation_saved">Saved</string>
+    <string name="fragment_title_feed">News</string>
+    <string name="fragment_title_saved">Saved</string>
+    <string name="btn_read_full_story">Read Full Story</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="txt_display_options">Display options</string>
+    <string name="txt_dark_theme">Dark theme</string>
+    <string name="txt_blogs">Blogs</string>
+    <string name="action_settings">Settings</string>
+
+    <style name="app_cannabbis_1">Cannabis app</style>
+    <style name="app_cannabbis_2">Cannabis News</style>
+    <style name="app_cannabbis_3">Cannabis games</style>
+    <style name="app_cannabbis_4">Cannais strains</style>
+    <style name="app_cannabbis_5">cannabis inverstors</style>
+    <style name="app_marihuanna_1">dope</style>
+    <style name="app_marihuanna_2">marijuana</style>
+
+</resources>
